@@ -71,7 +71,7 @@ const RegistrationTerms = () => {
               Xalqaro domenlarning narxi to&apos;g&apos;ridan-to&apos;g&apos;ri valyuta kurslariga
               bog&apos;liq, ammo biz comni ro&apos;yxatdan o&apos;tkazish va yangilash uchun
               qulay narxlarni taklif qilamiz. Siz domenni tanlashingiz va joriy
-              narxlarni Timeweb veb-saytidagi "domenlar" bo'limida ko'rishingiz
+              narxlarni Timeweb veb-saytidagi &quot;domenlar&quot; bo&apos;limida ko&apos;rishingiz
               mumkin.
             </Typography>
           </li>

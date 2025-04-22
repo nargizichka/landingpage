@@ -71,7 +71,7 @@ function Header() {
     <Navbar className="sticky top-0 z-20 h-max max-w-full lg:my-[50px] p-4 lg:px-[80px] shadow-none border-none font-inter">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between text-blue-gray-900">
         <Link href="/">
-          <img className="h-7 lg:h-[60px]" src="/images/project_logo.png" alt="" />
+          <Image className="h-7 lg:h-[60px]" src="/images/project_logo.png" alt="" />
         </Link>
         <div className="mr-4 hidden lg:block">
           <NavList />

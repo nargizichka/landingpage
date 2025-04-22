@@ -112,7 +112,7 @@ function FAQ() {
               onClick={() => handleOpen(5)}
               className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7"
             >
-              Pulli va bepul xosting o'rtasidagi farq nima?
+              Pulli va bepul xosting o&apos;rtasidagi farq nima?
             </AccordionHeader>
             <AccordionBody className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7">
               We&apos;re not always in the position that we want to be at.
@@ -127,7 +127,7 @@ function FAQ() {
               onClick={() => handleOpen(6)}
               className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7"
             >
-              To'g'ri xosting tarifini qanday tanlash mumkin?
+              To&apos;g&apos;ri xosting tarifini qanday tanlash mumkin?
             </AccordionHeader>
             <AccordionBody className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7">
               We&apos;re not always in the position that we want to be at.
@@ -172,7 +172,7 @@ function FAQ() {
               onClick={() => handleOpen(9)}
               className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7"
             >
-              Xostingga qanday buyurtma berish va to'lash kerak?
+              Xostingga qanday buyurtma berish va to&apos;lash kerak?
             </AccordionHeader>
             <AccordionBody className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7">
               We&apos;re not always in the position that we want to be at.
@@ -202,7 +202,7 @@ function FAQ() {
               onClick={() => handleOpen(11)}
               className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7"
             >
-              Qanday oldindan o'rnatilgan CMS-larni ijaraga olish mumkin?
+              Qanday oldindan o&apos;rnatilgan CMS-larni ijaraga olish mumkin?
             </AccordionHeader>
             <AccordionBody className="font-outfit text-xl sm:text-2xl md:text-[24px] lg:text-[28px] font-medium text-[#020F15] py-7">
               We&apos;re not always in the position that we want to be at.
