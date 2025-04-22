@@ -7,7 +7,7 @@ const RegistrationTerms = () => {
           variant="h1"
           className="font-semibold text-xl lg:text-[32px] font-outfit"
         >
-          Domenni ro'yxatdan o'tkazish shartlari
+          Domenni ro&apos;yxatdan o&apos;tkazish shartlari
         </Typography>
         <ul className="flex flex-col gap-[20px]">
           <li>
@@ -15,8 +15,8 @@ const RegistrationTerms = () => {
               variant="paragraph"
               className="font-normal text-base lg:text-lg font-outfit"
             >
-              Com-ni ro'yxatdan o'tkazish uchun biron bir aniq shartlarni
-              bajarish shart emas. Umuman olganda, bu ko'pchilik xalqaro
+              Com-ni ro&apos;yxatdan o&apos;tkazish uchun biron bir aniq shartlarni
+              bajarish shart emas. Umuman olganda, bu ko&apos;pchilik xalqaro
               domenlar bilan bir xil:
             </Typography>
           </li>
@@ -35,7 +35,7 @@ const RegistrationTerms = () => {
                   variant="paragraph"
                   className="font-normal text-base lg:text-lg font-outfit"
                 >
-                  administrator har qanday jismoniy yoki yuridik shaxs bo'lishi
+                  administrator har qanday jismoniy yoki yuridik shaxs bo&apos;lishi
                   mumkin;
                 </Typography>
               </li>
@@ -44,9 +44,9 @@ const RegistrationTerms = () => {
                   variant="paragraph"
                   className="font-normal text-base lg:text-lg font-outfit"
                 >
-                  ro'yxatdan o'tish uchun sizga hujjatlar kerak emas,
-                  administrator nomi va aloqa ma'lumotlari etarli. Egasining
-                  o'zgarishi ham juda oddiy — logger panelidagi ma'lumotlarni
+                  ro&apos;yxatdan o&apos;tish uchun sizga hujjatlar kerak emas,
+                  administrator nomi va aloqa ma&apos;lumotlari etarli. Egasining
+                  o&apos;zgarishi ham juda oddiy — logger panelidagi ma&apos;lumotlarni
                   yangilash orqali.
                 </Typography>
               </li>
@@ -57,10 +57,10 @@ const RegistrationTerms = () => {
               variant="paragraph"
               className="font-normal text-base lg:text-lg font-outfit"
             >
-              Ro'yxatdan o'tish paytida to'g'ri elektron pochtani
-              ko'rsatganingizga ishonch hosil qiling-ko'rsatilgan qutiga
-              kirmasdan siz domenni boshqarolmaysiz: NS serverlarini ko'rsating,
-              egasini yoki registratorini o'zgartiring.
+              Ro&apos;yxatdan o&apos;tish paytida to&apos;g&apos;ri elektron pochtani
+              ko&apos;rsatganingizga ishonch hosil qiling-ko&apos;rsatilgan qutiga
+              kirmasdan siz domenni boshqarolmaysiz: NS serverlarini ko&apos;rsating,
+              egasini yoki registratorini o&apos;zgartiring.
             </Typography>
           </li>
           <li>
@@ -68,8 +68,8 @@ const RegistrationTerms = () => {
               variant="paragraph"
               className="font-normal text-base lg:text-lg font-outfit"
             >
-              Xalqaro domenlarning narxi to'g'ridan-to'g'ri valyuta kurslariga
-              bog'liq, ammo biz comni ro'yxatdan o'tkazish va yangilash uchun
+              Xalqaro domenlarning narxi to&apos;g&apos;ridan-to&apos;g&apos;ri valyuta kurslariga
+              bog&apos;liq, ammo biz comni ro&apos;yxatdan o&apos;tkazish va yangilash uchun
               qulay narxlarni taklif qilamiz. Siz domenni tanlashingiz va joriy
               narxlarni Timeweb veb-saytidagi "domenlar" bo'limida ko'rishingiz
               mumkin.

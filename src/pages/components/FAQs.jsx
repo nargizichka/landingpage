@@ -32,7 +32,7 @@ const FAQs = () => {
         variant="h1"
         className="font-semibold text-2xl lg:text-[50px] mb-[40px] font-outfit"
       >
-        Ko'p so'raladigan savollar
+        Ko&apos;p so&apos;raladigan savollar
       </Typography>
       <ul className="flex 2xl:flex-nowrap justify-center flex-col lg:flex-row">
         <li className="flex flex-col">

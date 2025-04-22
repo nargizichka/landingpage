@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import React from "react";
+import Image from 'next/image';
 
 function HostingChapter6() {
   return (
@@ -14,7 +15,7 @@ function HostingChapter6() {
 
         <div className="flex items-center justify-center flex-wrap gap-4 ">
           <div className=" flex flex-col items-start gap-6 p-7 max-w-[630px] min-h-[276px] bg-[#F5F6FA] rounded-3xl">
-            <img
+            <Image
               src="/photos/dataplace.svg"
               alt="dataplace"
               className="w-[90px]  h-[90px]  "
@@ -24,7 +25,7 @@ function HostingChapter6() {
                 variant="h3"
                 className="text-3xl font-outfit font-semibold text-black"
               >
-                Ma'lumotlar markazida joylashtirish
+                Ma&apos;lumotlar markazida joylashtirish
               </Typography>
               <Typography
                 variant="lead"
@@ -37,7 +38,7 @@ function HostingChapter6() {
           </div>
 
           <div className=" flex flex-col items-start gap-6 p-7 max-w-[630px] min-h-[276px] bg-[#F5F6FA] rounded-3xl">
-            <img
+            <Image
               src="/photos/cpu.svg"
               alt="cpu"
               className="w-[90px]  h-[90px] "
@@ -54,7 +55,7 @@ function HostingChapter6() {
                 className="text-lg font-outfit font-medium text-black"
               >
                 Biz serverlarni barcha veb-saytlarni boshqara oladigan yuqori
-                sifatli protsessorlar bilan ta'minlaymiz
+                sifatli protsessorlar bilan ta&apos;minlaymiz
               </Typography>
             </div>
           </div>
@@ -66,7 +67,7 @@ function HostingChapter6() {
           variant="h2"
           className="text-3xl text-center sm:text-4xl md:text-5xl lg:text-5xl lg:text-left font-outfit font-semibold text-black"
         >
-          Biz jismoniy shaxslar uchun zarur bo'lgan <br /> hamma narsani taqdim
+          Biz jismoniy shaxslar uchun zarur bo&apos;lgan <br /> hamma narsani taqdim
           etamiz
         </Typography>
 
@@ -98,7 +99,7 @@ function HostingChapter6() {
             </div>
 
             <div className="flex gap-3 items-center justify-center">
-              <img
+              <Image
                 src="/certificate.svg"
                 alt="certificate"
                 className="w-12 h-12"
@@ -107,8 +108,8 @@ function HostingChapter6() {
                 variant="lead"
                 className="font-outfit font-medium text-lg text-black max-w-[490px] min-h-[46px]"
               >
-                Yuridik shaxslarni ro'yxatdan o'tkazish veb-saytdagi <br />
-                shakllarni to'ldirish orqali amalga oshiriladi
+                Yuridik shaxslarni ro&apos;yxatdan o&apos;tkazish veb-saytdagi <br />
+                shakllarni to&apos;ldirish orqali amalga oshiriladi
               </Typography>
             </div>
           </div>
@@ -120,10 +121,10 @@ function HostingChapter6() {
                   variant="lead"
                   className="text-lg font-outfit font-medium text-black"
                 >
-                  Naqd pulsiz to'lovlarni amalga oshirish
+                  Naqd pulsiz to&apos;lovlarni amalga oshirish
                 </Typography>
               </div>
-              <img src="/photos/card.svg" alt="card" className="w-16 h-16" />
+              <Image src="/photos/card.svg" alt="card" className="w-16 h-16" />
             </div>
 
             <div className="flex flex-col items-start gap-4 p-7 max-w-[305px] min-h-[200px] bg-[#F5F6FA] rounded-3xl">
@@ -135,7 +136,7 @@ function HostingChapter6() {
                   Biz davlat xaridlari orqali hamkorlik qilamiz
                 </Typography>
               </div>
-              <img src="/user.svg" alt="user" className="w-16 h-16" />
+              <Image src="/user.svg" alt="user" className="w-16 h-16" />
             </div>
 
             <div className="flex flex-col items-start gap-4 p-7 max-w-[305px] min-h-[200px] bg-[#F5F6FA] rounded-3xl">
@@ -147,7 +148,7 @@ function HostingChapter6() {
                   Biz elektron hujjat aylanishidan foydalanamiz
                 </Typography>
               </div>
-              <img
+              <Image
                 src="/photos/e-file.svg"
                 alt="e-file"
                 className="w-16 h-16"
@@ -163,7 +164,7 @@ function HostingChapter6() {
                   Biz barcha hisobotlarni pochta yoki Edo orqali taqdim etamiz
                 </Typography>
               </div>
-              <img src="/photos/email.svg" alt="email" className="w-16 h-16" />
+              <Image src="/photos/email.svg" alt="email" className="w-16 h-16" />
             </div>
 
             <div className="flex flex-col items-start gap-4 p-7 sm:col-span-2 w-full sm:max-w-[630px] min-h-[200px] bg-[#F5F6FA] rounded-3xl">
@@ -176,7 +177,7 @@ function HostingChapter6() {
                   tuzamiz
                 </Typography>
               </div>
-              <img
+              <Image
                 src="/photos/uniqueShartnoma.svg"
                 alt="uniqueShartnoma"
                 className="w-16 h-16"
@@ -191,7 +192,7 @@ function HostingChapter6() {
           variant="h2"
           className="text-3xl sm:text-4xl md:text-5xl font-outfit font-semibold text-black text-center sm:text-left"
         >
-          Ma'lumotlar markazlari
+          Ma&apos;lumotlar markazlari
         </Typography>
 
         <div className="flex items-center justify-center flex-wrap gap-4">
@@ -227,8 +228,8 @@ function HostingChapter6() {
                 className="text-base sm:text-lg font-outfit font-medium text-black"
               >
                 Loyihalaringizni har doim tegishli sifatda saqlash uchun biz
-                uzluksiz quvvat manbalaridan foydalanamiz va saytlarning o'zi
-                qurolli qo'riqchilar tomonidan himoyalangan
+                uzluksiz quvvat manbalaridan foydalanamiz va saytlarning o&apos;zi
+                qurolli qo&apos;riqchilar tomonidan himoyalangan
               </Typography>
             </div>
           </div>
@@ -246,7 +247,7 @@ function HostingChapter6() {
                 variant="lead"
                 className="text-base sm:text-lg font-outfit font-medium text-black"
               >
-                30 kundan ortiq ma'lumotlarni saqlash bilan kirishni boshqarish
+                30 kundan ortiq ma&apos;lumotlarni saqlash bilan kirishni boshqarish
                 va videokuzatuv mavjud
               </Typography>
             </div>

@@ -22,10 +22,10 @@ function HeroSection() {
           </Typography>
           <div className="flex flex-wrap gap-[10px] mt-12 lg:mt-20">
             <Button className="font-inter text-xs p-0 lg:text-xl capitalize inline-block w-[114px] lg:w-[160px] h-[44px] lg:h-[64px]  rounded-full bg-custom-pink font-semibold border-none shadow-none">
-              <span>Bog'lanish</span>
+              <span>Bog&apos;lanish</span>
             </Button>
             <Button className="font-inter text-xs p-0 lg:text-xl capitalize inline-block w-[171px] lg:w-[227px] h-[44px] lg:h-[64px]  rounded-full bg-black border border-white font-semibold shadow-none">
-              <span>Ko'proq ma'lumot</span>
+              <span>Ko&apos;proq ma&apos;lumot</span>
             </Button>
           </div>
         </div>

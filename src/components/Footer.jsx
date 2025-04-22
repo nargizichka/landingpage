@@ -51,7 +51,7 @@ function Footer() {
               className="w-full lg:w-fit font-semibold text-xl font-outfit leading-[100%] lg:text-[30px] flex flex-col items-start"
             >
               <span>200K mijozlar bizga ishonishgan.</span>
-              <span>Siz ham bizga qo'shiling!</span>
+              <span>Siz ham bizga qo&apos;shiling!</span>
             </Typography>
             <Button className="text-xs p-0 font-inter lg:text-base inline-block w-[86px] h-[44px]  lg:w-[125px] lg:h-[59px]  rounded-full bg-white text-black font-semibold border-none shadow-none">
               <span>Kirish</span>

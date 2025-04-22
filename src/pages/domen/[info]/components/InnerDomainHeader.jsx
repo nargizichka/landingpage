@@ -10,8 +10,8 @@ const InnerDomainHeader = (params) => {
 
   const title = () => (
     <span className="text-center">
-      <span className="text-custom-pink">{info && info.toUpperCase()}</span> domenlarini ro'yxatdan
-      o'tkazish
+      <span className="text-custom-pink">{info && info.toUpperCase()}</span> domenlarini ro&apos;yxatdan
+      o&apos;tkazish
     </span>
   );
   console.log(params);

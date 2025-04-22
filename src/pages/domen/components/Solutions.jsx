@@ -17,7 +17,7 @@ const BigCard = () => {
           variant="h1"
           className="mb-6 font-semibold text-xl lg:text-[32px] font-outfit"
         >
-          Domenni bizga o'tkazing
+          Domenni bizga o&apos;tkazing
         </Typography>
         <ul>
           {[
@@ -42,7 +42,7 @@ const BigCard = () => {
       <CardFooter className="p-0 mt-[207px]">
         <Link href="#">
           <Button className="text-xs px-[30px] py-[20px] lg:text-[20px] inline-block rounded-full bg-custom-pink font-semibold border-none shadow-none normal-case">
-            <span>Domenni o'tkazish</span>
+            <span>Domenni o&apos;tkazish</span>
           </Button>
         </Link>
         <Image
@@ -102,7 +102,7 @@ const OvalCard = () => {
             variant="paragraph"
             className="font-normal text-sm lg:text-lg font-outfit"
           >
-            Domen egasi bilan sotishga rozi bo'ling <br />
+            Domen egasi bilan sotishga rozi bo&apos;ling <br />
             va biz uni sizning orqangizdan ziyofat qilamiz
           </Typography>
         </div>

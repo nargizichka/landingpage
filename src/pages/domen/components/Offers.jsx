@@ -10,6 +10,7 @@ import DomainCard from "./DomainCard";
 import { useState } from "react";
 import { domains } from "../constants";
 import { DownArrowIcon } from "@/components/icons";
+import Image from 'next/image';
 
 const Offers = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -54,7 +55,7 @@ const Offers = () => {
         <Menu open={openMenu} handler={setOpenMenu}>
           <MenuHandler>
             <Button className="flex-1 min-w-28 flex items-center justify-center bg-milky-white p-[10px] font-medium text-outfit text-lg transition-all rounded-[10px] capitalize shadow-none">
-              <span>Ko'proq</span>
+              <span>Ko&apos;proq</span>
               <div className={`${openMenu ? "rotate-180" : ""} transition-all`}>
                 <DownArrowIcon />
               </div>

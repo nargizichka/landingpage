@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import React from "react";
+import Image from 'next/image';
 
 function CheckIcon() {
   return (
@@ -30,12 +31,12 @@ function HostingChapter7() {
           variant="h2"
           className="text-5xl font-outfit font-semibold text-black"
         >
-          Bizning qo'llab-quvvatlashimiz <br /> har doim siz bilan 24/7
+          Bizning qo&apos;llab-quvvatlashimiz <br /> har doim siz bilan 24/7
         </Typography>
 
         <div className="flex items-center justify-center flex-wrap gap-4 ">
           <div className=" flex flex-col items-start gap-6 p-7 max-w-[630px] min-h-[246px] bg-[#F5F6FA] rounded-3xl">
-            <img
+            <Image
               src="/photos/headphones.svg"
               alt="headphones"
               className="w-[90px]  h-[90px]  "
@@ -45,7 +46,7 @@ function HostingChapter7() {
                 variant="lead"
                 className="text-lg font-outfit font-medium text-black"
               >
-                Bizning qo'llab-quvvatlash jamoamiz har doim qiyin vazifalarni
+                Bizning qo&apos;llab-quvvatlash jamoamiz har doim qiyin vazifalarni
                 hal qilishda yordam berishga tayyor va sizni hech qachon
                 muammoga duchor qilmaydi
               </Typography>
@@ -53,7 +54,7 @@ function HostingChapter7() {
           </div>
 
           <div className=" flex flex-col items-start gap-6 p-7 max-w-[630px] min-h-[246px] bg-[#F5F6FA] rounded-3xl">
-            <img
+            <Image
               src="/photos/menu.svg"
               alt="menu"
               className="w-[90px]  h-[90px] "
@@ -63,8 +64,8 @@ function HostingChapter7() {
                 variant="lead"
                 className="text-lg font-outfit font-medium text-black"
               >
-                Biz hech kimni muammo bilan yolg'iz qoldirmaymiz: domenlar,
-                xostinglar, VPS, serverlar va xizmatning ishlashi bilan bog'liq
+                Biz hech kimni muammo bilan yolg&apos;iz qoldirmaymiz: domenlar,
+                xostinglar, VPS, serverlar va xizmatning ishlashi bilan bog&apos;liq
                 yordamni taqdim etamiz
               </Typography>
             </div>
@@ -97,7 +98,7 @@ function HostingChapter7() {
               className=" font-outfit font-medium text-black sm:text-xl md:text-2xl lg:text-2xl"
             >
               Boshqa narsalar qatorida bizning boshqaruv panelimiz quyidagi
-              funktsiyalarni o'z ichiga oladi:
+              funktsiyalarni o&apos;z ichiga oladi:
             </Typography>
 
             <Typography
@@ -106,11 +107,11 @@ function HostingChapter7() {
             >
               • fayllarni boshqarish; <br />
               • domenlarni boshqarish; <br />
-              • ma'lumotlar bazasini boshqarish; <br />
+              • ma&apos;lumotlar bazasini boshqarish; <br />
               • elektron pochta; <br />
               • xavfsizlik sozlamalari; <br />
               • zaxira nusxasi; <br />
-              • analitik ma'lumotlar; <br />
+              • analitik ma&apos;lumotlar; <br />
               • va boshqalar. <br />
             </Typography>
 
@@ -119,7 +120,7 @@ function HostingChapter7() {
               className=" font-outfit font-medium text-black sm:text-xl md:text-2xl lg:text-2xl"
             >
               Shu bilan birga, siz ixtisoslashgan texnik bilimlarga ega
-              bo'lishingiz shart emas va ko'plab vazifalarni bir marta bosish
+              bo&apos;lishingiz shart emas va ko&apos;plab vazifalarni bir marta bosish
               bilan avtomatik ravishda bajarish mumkin.
             </Typography>
 
@@ -142,7 +143,7 @@ function HostingChapter7() {
           variant="h2"
           className="text-3xl sm:text-4xl md:text-5xl font-outfit font-semibold text-black "
         >
-          Barcha tariflar quyidagilarni <br /> o'z ichiga oladi
+          Barcha tariflar quyidagilarni <br /> o&apos;z ichiga oladi
         </Typography>
 
         <div className="p-6 sm:p-8 bg-[#F5F6FA] rounded-3xl w-full max-w-[1280px] mx-auto">

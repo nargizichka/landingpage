@@ -249,7 +249,7 @@ function HostingChapter1() {
           font-inter font-semibold normal-case 
           flex items-center justify-center tracking-wide"
               >
-                Bog'lanish
+                Bog&apos;lanish
               </Button>
             </TabsHeader>
           </Tabs>
@@ -262,23 +262,25 @@ function HostingChapter1() {
         >
           {/* 24/7 Yordam */}
           <div className="service24 flex flex-row items-center gap-4">
-            <img
-              src="/24hours.svg"
-              alt="24 hours service"
-              className="w-14 h-14 sm:w-16 sm:h-16 md:w-[65px] md:h-[65px]"
-            />
+          <Image
+            src="/24hours.svg"
+            alt="24 hours service"
+            width={65}
+            height={65}
+            className="w-14 h-14 sm:w-16 sm:h-16 md:w-[65px] md:h-[65px]"
+          />
             <Typography
               variant="lead"
               className="text-base sm:text-lg md:text-xl lg:text-2xl font-medium font-outfit leading-snug text-left"
             >
-              Malakali va do'stona <br />
+              Malakali va do&apos;stona <br />
               yordam xizmati 24/7
             </Typography>
           </div>
 
           {/* 99.98% Uptime */}
           <div className="endlessWork flex flex-row items-center  gap-4 content-center">
-            <img
+            <Image
               src="/clock.svg"
               alt="uptime"
               className="w-14 h-14 sm:w-16 sm:h-16 md:w-[65px] md:h-[65px]"
@@ -294,7 +296,7 @@ function HostingChapter1() {
 
           {/* Panel */}
           <div className="panel flex flex-row items-center gap-4 content-center">
-            <img
+            <Image
               src="/panel.svg"
               alt="control panel"
               className="w-14 h-14 sm:w-16 sm:h-16 md:w-[65px] md:h-[65px]"

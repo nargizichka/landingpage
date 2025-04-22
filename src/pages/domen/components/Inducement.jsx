@@ -65,7 +65,7 @@ function Inducement() {
       >
         Biz bilan siz har qanday murakkablikdagi sayt uchun hostingni sotib
         olishingiz mumkin: <br />
-        oddiy tashrif qog'ozidan tortib to murakkabgacha, 1C-Bitrix-ga
+        oddiy tashrif qog&apos;ozidan tortib to murakkabgacha, 1C-Bitrix-ga
         asoslangan dasturlar.
       </Typography>
       <ul className="flex flex-wrap justify-center gap-5 flex-col lg:flex-row">

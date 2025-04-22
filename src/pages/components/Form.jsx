@@ -8,13 +8,13 @@ const Form = () => {
           variant="h1"
           className="font-semibold text-2xl lg:text-[50px] mb-5 font-outfit leading-[100%] select-none"
         >
-          Qo'shimcha savollaringiz bormi?
+          Qo&apos;shimcha savollaringiz bormi?
         </Typography>
         <Typography
           variant="paragraph"
           className="font-extralight text-sm lg:text-xl mb-[40px] font-outfit select-none"
         >
-          Savollaringizni qoldiring o'zimiz aloqaga chiqamiz.
+          Savollaringizni qoldiring o&apos;zimiz aloqaga chiqamiz.
         </Typography>
       </div>
       <div className="flex-1">
@@ -49,7 +49,7 @@ const Form = () => {
               </div>
             </div>
             <Button className="text-lg p-0 inline-block w-[150px] lg:w-[147px] h-[44px] lg:h-[64px]  rounded-full bg-black text-white font-semibold border-none shadow-none self-end font-inter">
-              <span>Jo'natish</span>
+              <span>Jo&apos;natish</span>
             </Button>
           </form>
         </div>

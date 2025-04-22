@@ -122,7 +122,7 @@ function HostingPlanCards() {
                   >
                     {cardData.price}
                     <span className="text-lg font-medium text-black">
-                      So'm/oy
+                      So&apos;m/oy
                     </span>
                   </Typography>
                   <Typography

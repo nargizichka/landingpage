@@ -1,5 +1,6 @@
 import { Button, Typography } from "@material-tailwind/react";
 import React from "react";
+import Image from 'next/image';
 
 function HostingChapter5() {
   return (
@@ -11,7 +12,7 @@ function HostingChapter5() {
               variant="h2"
               className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[40px] xl:text-5xl font-outfit font-semibold text-white"
             >
-              Biz har qanday murakkablikdagi veb-saytni o'tkazamiz
+              Biz har qanday murakkablikdagi veb-saytni o&apos;tkazamiz
             </Typography>
 
             <Typography
@@ -24,7 +25,7 @@ function HostingChapter5() {
 
           <div className="w-full sm:w-auto">
             <Button className="rounded-full text-sm sm:text-base md:text-lg lg:text-xl bg-[#EE2F5E] font-inter font-semibold text-white w-full sm:w-auto px-6 sm:px-10 py-4 sm:py-5 normal-case tracking-wider">
-              Loyihani ko'chirish
+              Loyihani ko&apos;chirish
             </Button>
           </div>
         </div>
@@ -48,7 +49,7 @@ function HostingChapter5() {
               key={index}
               className="flex flex-col items-start gap-4 p-5 sm:p-6 bg-[#F5F6FA] rounded-3xl w-full sm:w-[calc(50%-8px)] lg:w-[387px] min-h-[216px]"
             >
-              <img
+              <Image
                 src={item.img}
                 alt="icon"
                 className="w-12 h-12 sm:w-14 sm:h-14"
@@ -95,7 +96,7 @@ function HostingChapter5() {
         md:w-[160px] md:h-[160px]
         lg:w-[197px] lg:h-[197px]"
             >
-              <img
+              <Image
                 src={`/photos/${name}.svg`}
                 alt={name}
                 className="w-[40px] h-[50px]

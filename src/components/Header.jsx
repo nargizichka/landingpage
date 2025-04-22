@@ -10,6 +10,7 @@ import {
 import { DownArrowIcon, BurgerMenu, SearchIcon } from "./icons";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import Image from 'next/image';
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -45,7 +46,7 @@ function Header() {
           />
         </div>
         <Link href="/" className="text-white px-[15px] py-[11px] text-center">
-          To'lov usuli
+          To&apos;lov usuli
         </Link>
         <Link href="/" className="text-white px-[15px] py-[11px]">
           Hamkorlar

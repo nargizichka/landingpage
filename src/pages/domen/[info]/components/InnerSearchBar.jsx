@@ -8,7 +8,7 @@ const subDesc = () => {
     <div className="flex justify-between">
       <Button className="font-normal lg:font-medium font-outfit text-base lg:text-lg text-center flex items-center gap-1.5 border border-custom-pink bg-white text-custom-pink px-[15px] py-[10px] rounded-[10px] normal-case">
         <GlobeIcon />
-        <span>Domenni Sysdc-ga o'tkazish</span>
+        <span>Domenni Sysdc-ga o&apos;tkazish</span>
       </Button>
       <Typography
         as="h3"

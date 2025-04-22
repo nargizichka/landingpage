@@ -19,7 +19,7 @@ function OrderRequest() {
               className="text-base sm:text-lg md:text-xl lg:text-xl font-outfit text-[#292929]"
             >
               Kerakli serverni topa olmadingizmi? Telegramda <br /> bizning
-              mutaxassisimizga yozing. U siz uchun to'g'ri <br /> echim topadi.
+              mutaxassisimizga yozing. U siz uchun to&apos;g&apos;ri <br /> echim topadi.
               Ham kichik, ham yirik loyihalar uchun variantlar mavjud.
             </Typography>
           </div>

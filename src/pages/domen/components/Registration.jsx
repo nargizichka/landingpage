@@ -59,14 +59,14 @@ const OvalCard = () => {
             variant="h1"
             className="mb-6 font-semibold text-xl lg:text-[32px] font-outfit text-custom-pink"
           >
-            yoki. RF 1 yil davomida xosting uchun to'lashda
+            yoki. RF 1 yil davomida xosting uchun to&apos;lashda
           </Typography>
           <Typography
             variant="paragraph"
             className="font-normal text-sm lg:text-lg font-outfit"
           >
-            12 oylik har qanday xosting tarifini va domenni to'lang <br />
-            bepul ro'yxatdan o'tkaziladi yoki yangilanadi.
+            12 oylik har qanday xosting tarifini va domenni to&apos;lang <br />
+            bepul ro&apos;yxatdan o&apos;tkaziladi yoki yangilanadi.
           </Typography>
         </div>
         <Link href="#">
@@ -86,7 +86,7 @@ const Registration = () => {
         variant="h1"
         className="font-semibold text-2xl lg:text-[50px] leading-[100%] mb-[40px] font-outfit"
       >
-        Bepul ro'yxatdan o'tish <br />
+        Bepul ro&apos;yxatdan o&apos;tish <br />
         va domenni yangilash
       </Typography>
       <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5">

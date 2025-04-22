@@ -36,7 +36,7 @@ export function DomainCard({ name, priceRubl = "", priceSom = "" }) {
               color="black"
               className="text-base lg:text-lg font-bold font-outfit"
             >
-              {priceSom} so'm
+              {priceSom} so&apos;m
             </Typography>
           )}
         </div>
@@ -48,7 +48,7 @@ export function DomainCard({ name, priceRubl = "", priceSom = "" }) {
             color="black"
             className="font-outfit text-sm font-normal"
           >
-            Ro'yxatdan o'tish
+            Ro&apos;yxatdan o&apos;tish
           </Typography>
         </Link>
       </CardFooter>

@@ -20,6 +20,7 @@ import {
   Switch,
 } from "@material-tailwind/react";
 import React from "react";
+import Image from 'next/image';
 
 import { Cog6ToothIcon } from "@heroicons/react/24/solid";
 
@@ -173,7 +174,7 @@ function ServerRentalFilters() {
               className="flex items-center justify-between w-full h-[60px] text-lg sm:text-xl md:text-2xl font-medium font-outfit normal-case px-4"
             >
               <div className="flex items-center gap-2">
-                <img
+                <Image
                   src={countries.find(({ name }) => name === lang)?.flag}
                   alt={lang}
                   className="w-5 h-5 sm:w-6 sm:h-6 object-cover"
@@ -196,7 +197,7 @@ function ServerRentalFilters() {
                 className="flex items-center gap-2 font-outfit normal-case text-lg sm:text-xl font-medium"
                 onClick={() => setLang(name)}
               >
-                <img src={flag} alt={name} className="w-5 h-5 object-cover" />
+                <Image src={flag} alt={name} className="w-5 h-5 object-cover" />
                 {name}
               </MenuItem>
             ))}

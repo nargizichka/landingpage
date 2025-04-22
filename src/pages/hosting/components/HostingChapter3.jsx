@@ -1,5 +1,6 @@
 import { Button, Typography } from "@material-tailwind/react";
 import React from "react";
+import Image from 'next/image';
 
 function HostingChapter3() {
   return (
@@ -32,12 +33,12 @@ function HostingChapter3() {
           </Button>
 
           <div className="flex gap-3 justify-center">
-            <img src="/gift.svg" alt="gift" className="w-16 h-16" />
+            <Image src="/gift.svg" alt="gift" className="w-16 h-16" />
             <Typography
               variant="lead"
               className="font-outfit font-medium text-lg text-black max-w-[341px] min-h-[46px]"
             >
-              Balansni boshqa xosterdan o'tkazamiz yoki 1 yillik to'lov evaziga
+              Balansni boshqa xosterdan o&apos;tkazamiz yoki 1 yillik to&apos;lov evaziga
               3 oy bepul beramiz!
             </Typography>
           </div>

@@ -7,6 +7,8 @@ import {
 } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 import { UpArrowIcon } from "./icons";
+import Image from 'next/image';
+
 function Services() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -47,7 +49,7 @@ function Services() {
 
               <CardBody className="relative p-3 md:py-14 md:px-12">
                 <Button className="font-inter text-xs mb-9 lg:text-xl capitalize inline-block w-[114px] lg:w-[133px] h-[44px] lg:h-[60px]  rounded-full bg-white text-black font-semibold border-none shadow-none">
-                  <span>Ko'proq</span>
+                  <span>Ko&apos;proq</span>
                 </Button>
                 <Typography
                   variant="h2"
@@ -61,7 +63,7 @@ function Services() {
                   className=" text-sm lg:text-xl font-extralight leading-[1.5]"
                 >
                   Bizning serverlarimiz Germaniya, Rossiya va boshqa yirik
-                  davlatlarning ishonchli ma'lumot markazlarida joylashgan.
+                  davlatlarning ishonchli ma&apos;lumot markazlarida joylashgan.
                 </Typography>
               </CardBody>
             </Card>
@@ -86,9 +88,9 @@ function Services() {
                     variant="paragraph"
                     className="text-xs lg:text-xl font-outfit line-clamp-3"
                   >
-                    Resurslarni to'liq boshqarish imkonini beruvchi virtual
+                    Resurslarni to&apos;liq boshqarish imkonini beruvchi virtual
                     serverlar. Kuchli texnik infratuzilmamiz bilan qulaylik va
-                    barqarorlikni ta'minlaymiz.
+                    barqarorlikni ta&apos;minlaymiz.
                   </Typography>
                 </CardBody>
               </Card>
@@ -135,7 +137,7 @@ function Services() {
                 >
                   Brendingiz uchun eng mos va esda qolarli domenni tanlashga
                   yordam beramiz. Sizga kerakli domenni tez va qulay tarzda
-                  ro'yxatdan o'tkazing!
+                  ro&apos;yxatdan o&apos;tkazing!
                 </Typography>
               </CardBody>
             </Card>
@@ -179,7 +181,7 @@ function Services() {
                     variant="h1"
                     className="mb-2.5 mt-[25px] font-semibold text-lg lg:text-[40px] font-outfit leading-[100%]"
                   >
-                    Qo'llab <br /> quvvatlash
+                    Qo&apos;llab <br /> quvvatlash
                   </Typography>
                   <Typography
                     variant="paragraph"
@@ -211,7 +213,7 @@ function Services() {
                   variant="paragraph"
                   className="text-xs lg:text-xl font-outfit line-clamp-4"
                 >
-                  Mijozlaringizga tez va oson aloqa yo'llarini taqdim eting.
+                  Mijozlaringizga tez va oson aloqa yo&apos;llarini taqdim eting.
                   Bizning SMS xizmatlarimiz orqali xabarlaringizni istalgan
                   vaqtda va joyda yetkazing.
                 </Typography>
@@ -232,7 +234,7 @@ function Services() {
                     variant="h1"
                     className="mb-2.5 mt-[25px] font-semibold text-lg lg:text-[40px] font-outfit leading-[100%] line-clamp-2"
                   >
-                    Qo'llab quvvatlash
+                    Qo&apos;llab quvvatlash
                   </Typography>
                   <Typography
                     variant="paragraph"

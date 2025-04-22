@@ -7,7 +7,7 @@ const RegistrationGuide = () => {
           variant="h1"
           className="font-semibold text-2xl lg:text-[50px] font-outfit"
         >
-          COM domenini ro'yxatdan o'tkazish
+          COM domenini ro&apos;yxatdan o&apos;tkazish
         </Typography>
         <Typography
           variant="paragraph"
@@ -16,14 +16,14 @@ const RegistrationGuide = () => {
           Siz COM domenini turli maqsadlarda sotib olishingiz mumkin: yirik
           korporatsiya saytini, kichik startapni yoki hatto shaxsiy blogni
           joylashtirish uchun. Quyida biz ushbu zona, uning xususiyatlari va
-          bunday domenni kim ro'yxatdan o'tkazishi kerakligi haqida batafsil
-          ma'lumot beramiz.
+          bunday domenni kim ro&apos;yxatdan o&apos;tkazishi kerakligi haqida batafsil
+          ma&apos;umot beramiz.
         </Typography>
         <Typography
           variant="h1"
           className="font-semibold text-xl lg:text-[32px] font-outfit"
         >
-          .COM domen zonasi haqida ma'lumot
+          .COM domen zonasi haqida ma&apos;lumot
         </Typography>
         <ul className="flex flex-col gap-[30px]">
           {[

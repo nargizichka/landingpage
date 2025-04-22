@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import React from "react";
+import Image from 'next/image';
 
 function UniversalFeatures() {
   return (
@@ -49,7 +50,7 @@ function UniversalFeatures() {
               key={index}
               className="flex flex-col items-start gap-6 p-7 bg-[#F5F6FA] rounded-3xl w-full min-h-[200px] md:w-[413px] md:min-h-[269px]"
             >
-              <img src={img} alt={title} className="w-16 h-16" />
+              <Image src={img} alt={title} className="w-16 h-16" />
               <div className="flex flex-col items-start justify-between gap-3">
                 <Typography
                   variant="h3"

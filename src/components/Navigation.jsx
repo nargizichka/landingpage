@@ -18,7 +18,7 @@ function Navigation() {
     <div className=" max-w-[1440px] mx-auto w-fit bg-black lg:bg-milky-white rounded-[70px] p-1 font-inter border border-[#C7C6D2]">
       <ul className="flex items-center lg:hidden">
         <Button className="font-inter text-sm p-0 lg:text-base capitalize inline-block w-[109px] h-[30px] rounded-full bg-white text-black font-semibold border-none shadow-none">
-          <span>To'lov usuli</span>
+          <span>To&apos;lov usuli</span>
         </Button>
         <Link
           href="#"
@@ -43,7 +43,7 @@ function Navigation() {
           </li>
         ))}
         <Button className="font-inter text-xs p-0 lg:text-base capitalize inline-block w-[114px] lg:w-[119px] h-[44px] lg:h-[57px]  rounded-full bg-custom-pink font-semibold border-none shadow-none">
-          <span>Bog'lanish</span>
+          <span>Bog&apos;lanish</span>
         </Button>
       </ul>
     </div>

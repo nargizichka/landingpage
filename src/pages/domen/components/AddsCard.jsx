@@ -14,7 +14,7 @@ const AddsCard = () => {
       <CardHeader
         floated={false}
         shadow={false}
-        children={<></>}
+        // children={<></>}
         color="transparent"
         className="absolute top-20 inset-0 m-0 h-full w-full rounded-none bg-[url('/images/addsBackground.png')] bg-cover bg-center"
       ></CardHeader>

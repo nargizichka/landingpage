@@ -149,7 +149,7 @@ function ServerRentalButtons() {
           className="text-center text-lg max-w-[986px] md:text-xl lg:text-2xl mx-auto font-medium font-outfit text-black"
         >
           Biznes va texnik jamoalar uchun kuchli serverlar - tayyor va maxsus
-          qurilishlar; toza server yoki oldindan tuzilgan dasturiy ta'minot
+          qurilishlar; toza server yoki oldindan tuzilgan dasturiy ta&apos;minot
           bilan.
         </Typography>
       </div>
@@ -185,7 +185,7 @@ function ServerRentalButtons() {
           font-inter font-semibold normal-case 
           flex items-center justify-center tracking-wide"
               >
-                Bog'lanish
+                Bog&apos;lanish
               </Button>
             </TabsHeader>
           </Tabs>

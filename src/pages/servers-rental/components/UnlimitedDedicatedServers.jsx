@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import React from "react";
+import Image from 'next/image';
 
 function UnlimitedDedicatedServers() {
   return (
@@ -67,7 +68,7 @@ function UnlimitedDedicatedServers() {
               key={index}
               className="flex flex-col items-start gap-6 p-5 bg-[#F5F6FA] rounded-3xl w-full h-[294px] md:w-[414px] "
             >
-              <img src={img} alt={title} className="w-16 h-16" />
+              <Image src={img} alt={title} className="w-16 h-16" />
               <div className="flex flex-col items-start justify-between gap-1">
                 <Typography
                   variant="h3"
